@@ -11,8 +11,8 @@
     <header>
         <nav>
             <img src="../img/Logo" alt="">
-            <a href="Index.htm">Inicio</a>
-            <a href="#">Partidos</a>
+            <a href="index.html">Inicio</a>
+            <a href="Partidos.html">Partidos</a>
             <a href="Conactos.html">Contactos</a>
         </nav>
     </header>
@@ -28,6 +28,37 @@
     <div class="container">
        <h1>Contactenos</h1>
        <p>Tienes alguna duda?, alguna opinion?</p>
+
+       <form action="/action_page.php">
+        <label>Primer nombre:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label>Segundo nombre:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <input type="radio" id="html" name="fav_language" value="Masculino">
+        <label for="html">Masculino</label><br>
+        <input type="radio" id="css" name="fav_language" value="Femenino">
+        <label for="css">Femenino</label><br><br>
+
+        <label>E-Mail:</label>
+        <input type="text" name="fname"><br><br>
+
+        <label>Telefono:</label>
+        <input type="text" name="fname"><br><br>
+
+        <form action="/action_page.php">
+            <p><label for="w3review">Comentario:</label></p>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">Tu opinion nos importa y nos ayuda a mejorar esta humilde pagina.</textarea>
+            <br>
+            <input type="submit" value="Submit">
+          </form>
+
+
+
+        <input type="checkbox" name="captcha" value="Robot">
+        <label for="vehicle1"> No soy un robot</label><br>
+
+      </form>
+      
     </div>
 
     <br><footer>
